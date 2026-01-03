@@ -108,7 +108,7 @@ function TestimonialsCarousel() {
     {
       name: "Shakshi Sharma",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80",
-      text: "The entire process—from searching to booking—was smooth. I could chat with vendors and finalize everything without any stress.",
+      text: "The entire process from searching to bookingâ€”was smooth. I could chat with vendors and finalize everything without any stress.",
       rating: 5
     },
     {
@@ -224,24 +224,28 @@ const PortfolioItem = ({ item }: { item: typeof portfolioData[0] }) => {
   };
 
   return (
-    <div className={`${getGridClasses()} relative group rounded-3xl overflow-hidden shadow-md`}>
-      <img 
-        src={item.imageUrl} 
-        alt={item.title}
-        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-        data-ai-hint={item.imageHint}
-      />
-      <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors" />
-      <div className={`absolute bottom-0 left-0 p-${item.size === 'large' ? '8' : '6'}`}>
-        <h3 className={`font-bold text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-300 ${item.size === 'large' ? 'text-2xl' : 'text-xl'}`}>
-          {item.title}
-        </h3>
-        {item.size === 'large' && (
-          <p className="text-white/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-75">
-            {item.location}
-          </p>
-        )}
-      </div>
+    <div className={`${getGridClasses()} relative group rounded-3xl overflow-hidden shadow-md aspect-w-16 aspect-h-9`}>
+      {item.type === 'youtube' ? (
+        <iframe
+          src={item.videoUrl}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          className="w-full h-full object-cover"
+        ></iframe>
+      ) : (
+        <video
+          src={item.videoUrl}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+          data-ai-hint={item.imageHint}
+        />
+      )}
+      <div className="absolute inset-0 bg-black/10 group-hover:bg-black/20 transition-colors" />
     </div>
   );
 };
@@ -295,7 +299,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-2 gap-4 h-[600px]">
+          <div className="grid grid-cols-1 md:grid-cols-4 md:auto-rows-fr gap-4">
             {portfolioData.map(item => <PortfolioItem key={item.id} item={item} />)}
           </div>
         </div>
@@ -310,7 +314,7 @@ export default function Home() {
               
               <div className="space-y-6 text-slate-600 text-lg leading-relaxed">
                 <p>
-                  At ChaskaEvent, we believe that events are more than just gatherings—they are opportunities to connect, inspire, and transform.
+                  At ChaskaEvent, we believe that events are more than just gatherings they are opportunities to connect, inspire, and transform.
                 </p>
                 <p>
                   Founded in 2015, we have grown from a small local agency to a global event management powerhouse. Our team of passionate planners, designers, and strategists work tirelessly to bring your vision to life.
@@ -449,6 +453,4 @@ export default function Home() {
       <Footer />
     </div>
   );
-}
-
-    
+        }
