@@ -1,33 +1,29 @@
 export const portfolioData = [
   {
     id: 'tech-summit',
-    title: 'Tech Innovation Summit',
-    location: 'San Francisco, CA',
-    imageUrl: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80',
+    type: 'direct',
+    videoUrl: 'videolink',
     imageHint: 'tech conference stage',
     size: 'large',
   },
   {
     id: 'royal-wedding',
-    title: 'Royal Wedding',
-    location: 'Jaipur, India',
-    imageUrl: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80',
+    type: 'direct',
+    videoUrl: 'videolink',
     imageHint: 'wedding reception',
     size: 'wide',
   },
   {
-    id: 'design-workshop',
-    title: 'Design Workshop',
-    location: 'New York, NY',
-    imageUrl: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80',
-    imageHint: 'design workshop',
+    id: 'youtube-event-recap',
+    type: 'youtube',
+    videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', // Example YouTube embed URL
+    imageHint: 'event recap',
     size: 'small',
   },
   {
     id: 'gala-dinner',
-    title: 'Gala Dinner',
-    location: 'Paris, France',
-    imageUrl: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80',
+    type: 'direct',
+    videoUrl: 'https://www.youtube.com/watch/LXb3EKWsInQ', // YouTube ki link aise na dena ye jo upar embed krke hai aise dena
     imageHint: 'gala dinner',
     size: 'small',
   },
