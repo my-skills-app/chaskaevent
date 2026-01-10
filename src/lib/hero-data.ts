@@ -1,7 +1,7 @@
 
 export const heroData = [
   {
-    title: "bALLOON DECORATION BEST BIRTHDAY EVENT",
+    title: "BALLOON DECORATION EVENT",
     subtitle: "Best Wedding managment Planer in Patna (Patna's No1 Wedding Plannner)",
     imageUrl: "https://i.ibb.co/jvfxLnGH/BIRTHDAY.png",
   },
@@ -16,13 +16,13 @@ export const heroData = [
     imageUrl: "https://i.ibb.co/ZzNFfhFB/haldi-1.png",
   },
   {
-    title: "Celebrate Life's Milestones",
-    subtitle: "From birthdays to anniversaries, we make every celebration a cherished memory.",
-    imageUrl: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&q=80",
+    title: "WEDDING STAGE DECORATION",
+    subtitle: "Best Wedding Planer in Patna (Patna's No1 Wedding Plannner)",
+    imageUrl: "https://i.ibb.co/mrxQ68nn/STAGE-2.png",
   },
   {
-    title: "Unforgettable Concerts & Shows",
-    subtitle: "Experience the thrill of live music and entertainment like never before.",
-    imageUrl: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80",
+    title: "LIGHT DECORATION",
+    subtitle: "Best Event Planer in Patna (Patna's No1 Wedding Plannner)",
+    imageUrl: "https://i.ibb.co/4nq2FCqR/LGHT-DECOR-2.png",
   }
 ];
