@@ -1,19 +1,19 @@
 
 export const heroData = [
   {
-    title: "BEST BIRTHDAY EVENT",
-    subtitle: "Best Wedding Planer in Patna (Patna's No1 Wedding Plannner",
+    title: "bALLOON DECORATION BEST BIRTHDAY EVENT",
+    subtitle: "Best Wedding managment Planer in Patna (Patna's No1 Wedding Plannner)",
     imageUrl: "https://i.ibb.co/jvfxLnGH/BIRTHDAY.png",
   },
   {
-    title: "Seamless Wedding Planning",
-    subtitle: "Let us handle the details, so you can enjoy the magic of your special day.",
-    imageUrl: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80",
+    title: "BEST DANCE TROUPE",
+    subtitle: "Best Wedding Planer in Patna (Patna's No1 Wedding Plannner)",
+    imageUrl: "https://i.ibb.co/0RNFPdfP/DANCE-TUP-1.png",
   },
   {
-    title: "Corporate Events, Redefined",
-    subtitle: "Engage your audience with professionally executed conferences, summits, and workshops.",
-    imageUrl: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80",
+    title: "HALDI BACKDROP",
+    subtitle: "Best Wedding Planer in Patna (Patna's No1 Wedding Plannner)",
+    imageUrl: "https://i.ibb.co/ZzNFfhFB/haldi-1.png",
   },
   {
     title: "Celebrate Life's Milestones",
