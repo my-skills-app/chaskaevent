@@ -1,9 +1,9 @@
 
 export const heroData = [
   {
-    title: "Your Vision, Our Expertise",
-    subtitle: "Creating unforgettable moments, from intimate gatherings to grand celebrations.",
-    imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80",
+    title: "BEST BIRTHDAY EVENT",
+    subtitle: "Best Wedding Planer in Patna (Patna's No1 Wedding Plannner",
+    imageUrl: "https://i.ibb.co/jvfxLnGH/BIRTHDAY.png",
   },
   {
     title: "Seamless Wedding Planning",
