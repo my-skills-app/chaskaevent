@@ -356,7 +356,7 @@ export default function Home() {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl rotate-3 hover:rotate-0 transition-transform duration-500">
                 {/* Office/Team meeting */}
                 <img 
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80" 
+                  src="https://i.ibb.co/1YvLXkgT/Whats-App-Image-2026-01-10-at-3-36-51-PM.jpg" 
                   alt="The ChaskaEvent team in a planning meeting"
                   className="w-full h-auto object-cover"
                   data-ai-hint="team meeting office"
