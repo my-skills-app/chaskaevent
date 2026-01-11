@@ -82,9 +82,9 @@ export const vendorData: VendorData = {
         title: "Transform Your Space",
         description: "Our designers work with you to create a stunning and cohesive look for your event, from floral arrangements to lighting design.",
         items: [
-          { title: "Luxury Floral Arrangements", details: "Elegant centerpieces and bouquets.", imageUrl: "https://picsum.photos/seed/decor1/400/400", imageHint: "floral arrangement" },
-          { title: "Thematic Stage Design", details: "Custom stages for conferences and performances.", imageUrl: "https://picsum.photos/seed/decor2/400/400", imageHint: "stage design" },
-          { title: "Ambient Lighting", details: "Create the perfect mood with professional lighting.", imageUrl: "https://picsum.photos/seed/decor3/400/400", imageHint: "event lighting" },
+          { title: "Luxury Floral Arrangements", details: "Elegant centerpieces and bouquets.", imageUrl: "https://i.ibb.co/zkYj9hH/Whats-App-Image-2026-01-10-at-1-32-48-PM-2.jpg", imageHint: "floral arrangement" },
+          { title: "Thematic Stage Design", details: "Custom stages for conferences and performances.", imageUrl: "https://i.ibb.co/2YR1CGkS/Whats-App-Image-2026-01-10-at-1-34-27-PM.jpg", imageHint: "stage design" },
+          { title: "Ambient Lighting", details: "Create the perfect mood with professional lighting.", imageUrl: "https://i.ibb.co/PZk4Xv91/Whats-App-Image-2026-01-10-at-1-34-15-PM.jpg", imageHint: "event lighting" },
         ]
       }
     },
