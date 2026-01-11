@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 'tech-summit',
     type: 'direct',
-    videoUrl: 'https://github.com/my-skills-app/chaskaevent/raw/refs/heads/main/WhatsApp%20Video%202026-01-10%20at%201.33.02%20PM.mp4',
+    videoUrl: 'https://github.com/my-skills-app/chaskaevent/raw/refs/heads/main/portfolio.mp4',
     imageHint: 'tech conference stage',
     size: 'large',
   },
