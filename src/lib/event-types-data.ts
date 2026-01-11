@@ -14,13 +14,13 @@ export const eventTypes = [
   },
   {
     title: "Birthday theme",
-    image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80",
+    image: "https://i.ibb.co/r29qNzxq/Whats-App-Image-2026-01-10-at-1-34-30-PM.jpg",
     description: "Birthday theme",
     imageHint: "birthday party",
   },
   {
     title: "Entry Theme",
-    image: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&q=80",
+    image: "https://i.ibb.co/RGM4Vths/Whats-App-Image-2026-01-10-at-1-32-48-PM-1.jpg",
     description: "Entry Theme",
     imageHint: "event entrance",
   }
