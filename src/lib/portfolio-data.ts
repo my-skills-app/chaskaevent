@@ -1,8 +1,8 @@
 export const portfolioData = [
   {
     id: 'tech-summit',
-    type: 'direct',
-    videoUrl: 'videolink',
+    type: 'youtube',
+    videoUrl: 'https://youtu.be/TC-OEFf-C1s',
     imageHint: 'tech conference stage',
     size: 'large',
   },
