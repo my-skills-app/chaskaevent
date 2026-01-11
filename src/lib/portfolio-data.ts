@@ -15,15 +15,15 @@ export const portfolioData = [
   },
   {
     id: 'youtube-event-recap',
-    type: 'youtube',
-    videoUrl: 'https://www.youtube.com/embed/LXb3EKWsInQ', // Example YouTube embed URL
+    type: 'direct',
+    videoUrl: 'https://github.com/my-skills-app/chaskaevent/raw/refs/heads/main/dulhaentry.mp4', // Example YouTube embed URL
     imageHint: 'event recap',
     size: 'small',
   },
   {
     id: 'gala-dinner',
     type: 'direct',
-    videoUrl: 'https://www.youtube.com/watch/LXb3EKWsInQ', // YouTube ki link aise na dena ye jo upar embed krke hai aise dena
+    videoUrl: 'https://github.com/my-skills-app/chaskaevent/raw/refs/heads/main/portfolio.mp4', // YouTube ki link aise na dena ye jo upar embed krke hai aise dena
     imageHint: 'gala dinner',
     size: 'small',
   },
