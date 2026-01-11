@@ -20,7 +20,7 @@ export const eventTypes = [
   },
   {
     title: "Entry Theme",
-    image: "https://i.ibb.co/RGM4Vths/Whats-App-Image-2026-01-10-at-1-32-48-PM-1.jpg",
+    image: "https://i.ibb.co/VXmtVJc/Whats-App-Image-2026-01-10-at-1-32-43-PM-1.jpg",
     description: "Entry Theme",
     imageHint: "event entrance",
   }
