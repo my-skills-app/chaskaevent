@@ -70,7 +70,7 @@ export const vendorData: VendorData = {
         items: [
           { title: "Candid Wedding Photography", details: "Natural, emotional, and unforgettable shots.", imageUrl: "https://i.ibb.co/zVMWWmTz/Whats-App-Image-2026-01-10-at-1-32-57-PM.jpg" },
           { title: "Corporate Event Coverage", details: "Professional coverage for conferences and meetings.", imageUrl: "https://i.ibb.co/bR7hxSfy/Whats-App-Image-2026-01-10-at-1-34-10-PM.jpg" },
-          { title: "Cinematic Event Film", details: "A beautiful film telling the story of your day.", imageUrl: "https://picsum.photos/seed/photo3/400/400", imageHint: "event videography" },
+          { title: "Cinematic Event Film", details: "A beautiful film telling the story of your day.", imageUrl: "https://i.ibb.co/5xnmbJtb/STAGE-2-1.png" },
         ]
       }
     },
