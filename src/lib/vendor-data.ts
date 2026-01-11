@@ -68,8 +68,8 @@ export const vendorData: VendorData = {
         title: "Capture Every Moment",
         description: "Our professional photographers and videographers specialize in capturing the essence of your event, creating timeless memories you'll cherish forever.",
         items: [
-          { title: "Candid Wedding Photography", details: "Natural, emotional, and unforgettable shots.", imageUrl: "https://picsum.photos/seed/photo1/400/400", imageHint: "wedding photography" },
-          { title: "Corporate Event Coverage", details: "Professional coverage for conferences and meetings.", imageUrl: "https://picsum.photos/seed/photo2/400/400", imageHint: "corporate event" },
+          { title: "Candid Wedding Photography", details: "Natural, emotional, and unforgettable shots.", imageUrl: "https://i.ibb.co/zVMWWmTz/Whats-App-Image-2026-01-10-at-1-32-57-PM.jpg" },
+          { title: "Corporate Event Coverage", details: "Professional coverage for conferences and meetings.", imageUrl: "https://i.ibb.co/bR7hxSfy/Whats-App-Image-2026-01-10-at-1-34-10-PM.jpg" },
           { title: "Cinematic Event Film", details: "A beautiful film telling the story of your day.", imageUrl: "https://picsum.photos/seed/photo3/400/400", imageHint: "event videography" },
         ]
       }
